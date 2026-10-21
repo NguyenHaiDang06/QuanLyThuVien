@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Tổng quan";
+}
+
+<div class="row">
+
+    <div class="col-lg-3 col-6">
+        <div class="small-box text-bg-primary">
+            <div class="inner">
+                <h3>250</h3>
+                <p>Tổng số đầu sách</p>
+            </div>
+            <i class="small-box-icon bi bi-book"></i>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-6">
+        <div class="small-box text-bg-success">
+            <div class="inner">
+                <h3>120</h3>
+                <p>Tổng số độc giả</p>
+            </div>
+            <i class="small-box-icon bi bi-people"></i>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-6">
+        <div class="small-box text-bg-warning">
+            <div class="inner">
+                <h3>35</h3>
+                <p>Phiếu mượn đang hoạt động</p>
+            </div>
+            <i class="small-box-icon bi bi-journal-arrow-up"></i>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-6">
+        <div class="small-box text-bg-danger">
+            <div class="inner">
+                <h3>5</h3>
+                <p>Phiếu mượn quá hạn</p>
+            </div>
+            <i class="small-box-icon bi bi-exclamation-circle"></i>
+        </div>
+    </div>
+
+</div>
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Thông tin hệ thống</h3>
+    </div>
+
+    <div class="card-body">
+        <p>
+            Chào mừng bạn đến với hệ thống quản lý thư viện.
+        </p>
+
+        <p>
+            Sử dụng menu bên trái để quản lý sách, độc giả,
+            thể loại và hoạt động mượn trả sách.
+        </p>
+
+        <a asp-controller="Sach"
+           asp-action="Index"
+           class="btn btn-primary">
+            <i class="bi bi-book"></i>
+            Quản lý sách
+        </a>
+
+        <a asp-controller="MuonTra"
+           asp-action="Index"
+           class="btn btn-success">
+            <i class="bi bi-arrow-left-right"></i>
+            Quản lý mượn trả
+        </a>
+    </div>
+</div>
