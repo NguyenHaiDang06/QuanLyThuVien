@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\laptrinhtrucquan\\QuanLyThuVien\\",
+  "WorkspaceRootPath": "E:\\laptrinhtrucquan\\MyAppMVC\\QuanLyThuVien\\QuanLyThuVien\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EABB773B-35C9-48BC-897C-02E36352C105}|QuanLyThuVien\\QuanLyThuVien.csproj|e:\\laptrinhtrucquan\\quanlythuvien\\quanlythuvien\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EABB773B-35C9-48BC-897C-02E36352C105}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{327F23F2-0940-C057-1C6B-27C407CC3319}|QuanLyThuVien\\QuanLyThuVien.csproj|e:\\laptrinhtrucquan\\myappmvc\\quanlythuvien\\quanlythuvien\\quanlythuvien\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{327F23F2-0940-C057-1C6B-27C407CC3319}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EABB773B-35C9-48BC-897C-02E36352C105}|QuanLyThuVien\\QuanLyThuVien.csproj|e:\\laptrinhtrucquan\\quanlythuvien\\quanlythuvien\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EABB773B-35C9-48BC-897C-02E36352C105}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{327F23F2-0940-C057-1C6B-27C407CC3319}|QuanLyThuVien\\QuanLyThuVien.csproj|e:\\laptrinhtrucquan\\myappmvc\\quanlythuvien\\quanlythuvien\\quanlythuvien\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{327F23F2-0940-C057-1C6B-27C407CC3319}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EABB773B-35C9-48BC-897C-02E36352C105}|QuanLyThuVien\\QuanLyThuVien.csproj|e:\\laptrinhtrucquan\\quanlythuvien\\quanlythuvien\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EABB773B-35C9-48BC-897C-02E36352C105}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{327F23F2-0940-C057-1C6B-27C407CC3319}|QuanLyThuVien\\QuanLyThuVien.csproj|e:\\laptrinhtrucquan\\myappmvc\\quanlythuvien\\quanlythuvien\\quanlythuvien\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{327F23F2-0940-C057-1C6B-27C407CC3319}|QuanLyThuVien\\QuanLyThuVien.csproj|solutionrelative:quanlythuvien\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,35 +36,33 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\laptrinhtrucquan\\QuanLyThuVien\\QuanLyThuVien\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "E:\\laptrinhtrucquan\\MyAppMVC\\QuanLyThuVien\\QuanLyThuVien\\QuanLyThuVien\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLyThuVien\\Views\\Home\\Index.cshtml",
-              "ToolTip": "E:\\laptrinhtrucquan\\QuanLyThuVien\\QuanLyThuVien\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\laptrinhtrucquan\\MyAppMVC\\QuanLyThuVien\\QuanLyThuVien\\QuanLyThuVien\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "QuanLyThuVien\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAACIAAAAAAAAAAADwvzwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-21T04:15:28.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-21T04:15:28.802Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "E:\\laptrinhtrucquan\\QuanLyThuVien\\QuanLyThuVien\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\laptrinhtrucquan\\MyAppMVC\\QuanLyThuVien\\QuanLyThuVien\\QuanLyThuVien\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "QuanLyThuVien\\Views\\_ViewStart.cshtml",
-              "ToolTip": "E:\\laptrinhtrucquan\\QuanLyThuVien\\QuanLyThuVien\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\laptrinhtrucquan\\MyAppMVC\\QuanLyThuVien\\QuanLyThuVien\\QuanLyThuVien\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "QuanLyThuVien\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-21T04:14:34.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-21T04:14:34.536Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "_MyLayout.cshtml",
-              "DocumentMoniker": "E:\\laptrinhtrucquan\\QuanLyThuVien\\QuanLyThuVien\\Views\\Shared\\_MyLayout.cshtml",
+              "DocumentMoniker": "E:\\laptrinhtrucquan\\MyAppMVC\\QuanLyThuVien\\QuanLyThuVien\\QuanLyThuVien\\Views\\Shared\\_MyLayout.cshtml",
               "RelativeDocumentMoniker": "QuanLyThuVien\\Views\\Shared\\_MyLayout.cshtml",
-              "ToolTip": "E:\\laptrinhtrucquan\\QuanLyThuVien\\QuanLyThuVien\\Views\\Shared\\_MyLayout.cshtml",
+              "ToolTip": "E:\\laptrinhtrucquan\\MyAppMVC\\QuanLyThuVien\\QuanLyThuVien\\QuanLyThuVien\\Views\\Shared\\_MyLayout.cshtml",
               "RelativeToolTip": "QuanLyThuVien\\Views\\Shared\\_MyLayout.cshtml",
               "ViewState": "AgIAAFMAAAAAAAAAAADgv2sAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

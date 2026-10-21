@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\laptrinhtrucquan\\QuanLyThuVien\\QuanLyThuVien\\QuanLyThuVien.csproj",
+      "projectUniqueName": "E:\\laptrinhtrucquan\\MyAppMVC\\QuanLyThuVien\\QuanLyThuVien\\QuanLyThuVien\\QuanLyThuVien.csproj",
       "projectName": "QuanLyThuVien",
-      "projectPath": "E:\\laptrinhtrucquan\\QuanLyThuVien\\QuanLyThuVien\\QuanLyThuVien.csproj",
+      "projectPath": "E:\\laptrinhtrucquan\\MyAppMVC\\QuanLyThuVien\\QuanLyThuVien\\QuanLyThuVien\\QuanLyThuVien.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\laptrinhtrucquan\\QuanLyThuVien\\QuanLyThuVien\\obj\\",
+      "outputPath": "E:\\laptrinhtrucquan\\MyAppMVC\\QuanLyThuVien\\QuanLyThuVien\\QuanLyThuVien\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
