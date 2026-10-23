@@ -1,0 +1,22 @@
+﻿@model QuanLyThuVien.Models.Book
+@{
+    Layout = "_MyLayout";
+    ViewData["Title"] = "Cập nhật sách";
+}
+
+<div class="card mt-3">
+    <div class="card-header"><h3 class="card-title">Cập nhật thông tin sách</h3></div>
+    <div class="card-body">
+        <form asp-action="Edit" method="post">
+            <input type="hidden" asp-for="Id" />
+
+            <div class="mb-3"><label class="form-label">Tên sách</label><input asp-for="Title" class="form-control" required /></div>
+            <div class="mb-3"><label class="form-label">Tác giả</label><input asp-for="Author" class="form-control" required /></div>
+            <div class="mb-3"><label class="form-label">Thể loại</label><input asp-for="Category" class="form-control" /></div>
+            <div class="mb-3"><label class="form-label">Số lượng</label><input asp-for="Quantity" type="number" class="form-control" min="0" required /></div>
+
+            <button type="submit" class="btn btn-primary">Cập nhật</button>
+            <a href="/Sach" class="btn btn-secondary">Quay lại</a>
+        </form>
+    </div>
+</div>

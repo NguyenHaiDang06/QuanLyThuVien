@@ -1,0 +1,19 @@
+﻿@model QuanLyThuVien.Models.Reader
+@{
+    Layout = "_MyLayout";
+    ViewData["Title"] = "Thêm Độc giả";
+}
+
+<div class="card mt-3">
+    <div class="card-header"><h3 class="card-title">Thêm độc giả mới</h3></div>
+    <div class="card-body">
+        <form asp-action="Create" method="post">
+            <div class="mb-3"><label class="form-label">Họ và tên</label><input asp-for="FullName" class="form-control" required /></div>
+            <div class="mb-3"><label class="form-label">Số điện thoại</label><input asp-for="PhoneNumber" class="form-control" required /></div>
+            <div class="mb-3"><label class="form-label">Email</label><input asp-for="Email" class="form-control" /></div>
+            <div class="mb-3"><label class="form-label">Địa chỉ</label><input asp-for="Address" class="form-control" /></div>
+            <button type="submit" class="btn btn-success">Lưu thông tin</button>
+            <a href="/DocGia" class="btn btn-secondary">Quay lại</a>
+        </form>
+    </div>
+</div>

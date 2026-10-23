@@ -1,0 +1,18 @@
+﻿@model QuanLyThuVien.Models.Penalty
+@{ Layout = "_MyLayout"; ViewData["Title"] = "Thêm Tiền phạt"; }
+<div class="card mt-3">
+    <div class="card-header"><h3 class="card-title">Thêm tiền phạt mới</h3></div>
+    <div class="card-body">
+        <form asp-action="Create" method="post">
+            <div class="mb-3"><label class="form-label">Tên độc giả</label><input asp-for="ReaderName" class="form-control" required /></div>
+            <div class="mb-3"><label class="form-label">Lý do phạt</label><input asp-for="Reason" class="form-control" required /></div>
+            <div class="mb-3"><label class="form-label">Số tiền phạt</label><input asp-for="Amount" type="number" class="form-control" required /></div>
+            <div class="mb-3 form-check">
+                <input asp-for="IsPaid" class="form-check-input" />
+                <label class="form-check-label">Đã nộp tiền</label>
+            </div>
+            <button type="submit" class="btn btn-success">Lưu</button>
+            <a href="/Phat" class="btn btn-secondary">Quay lại</a>
+        </form>
+    </div>
+</div>
