@@ -15,10 +15,10 @@ namespace QuanLyThuVien.Controllers
 
         // Hiển thị danh sách
         public IActionResult Index()
-        {
-            var books = _context.Books.ToList();
-            return View(books);
-        }
+{
+
+    return View();
+}
 
         // Giao diện thêm mới
         [HttpGet]

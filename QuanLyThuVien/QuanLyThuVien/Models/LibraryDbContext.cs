@@ -10,5 +10,6 @@ namespace QuanLyThuVien.Models
         public DbSet<Book> Books { get; set; }
         public DbSet<Reader> Readers { get; set; }
         public DbSet<Penalty> Penalties { get; set; }
+        public DbSet<Account> Accounts { get; set; }
     }
 }

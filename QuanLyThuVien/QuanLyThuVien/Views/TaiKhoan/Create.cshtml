@@ -1,0 +1,24 @@
+﻿@model QuanLyThuVien.Models.Account
+@{ Layout = "_MyLayout"; ViewData["Title"] = "Cấp Tài khoản"; }
+<div class="card mt-3">
+    <div class="card-header"><h3 class="card-title">Cấp tài khoản mới</h3></div>
+    <div class="card-body">
+        <form asp-action="Create" method="post">
+            <div class="mb-3"><label class="form-label">Tên đăng nhập</label><input asp-for="Username" class="form-control" required /></div>
+            <div class="mb-3"><label class="form-label">Mật khẩu</label><input asp-for="Password" type="password" class="form-control" required /></div>
+            <div class="mb-3">
+                <label class="form-label">Vai trò</label>
+                <select asp-for="Role" class="form-select">
+                    <option value="Thủ thư">Thủ thư</option>
+                    <option value="Admin">Quản trị viên (Admin)</option>
+                </select>
+            </div>
+            <div class="mb-3 form-check">
+                <input asp-for="IsActive" class="form-check-input" checked />
+                <label class="form-check-label">Kích hoạt ngay</label>
+            </div>
+            <button type="submit" class="btn btn-success">Khởi tạo</button>
+            <a href="/TaiKhoan" class="btn btn-secondary">Quay lại</a>
+        </form>
+    </div>
+</div>
