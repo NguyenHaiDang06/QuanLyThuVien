@@ -23,11 +23,7 @@
                 </tr>
             </thead>
             <tbody>
-                @if (!Model.Any())
-                {
-                    <tr><td colspan="6" class="text-center">Chưa có dữ liệu sách.</td></tr>
-                }
-                else
+                @if (Model != null && Model.Any())
                 {
                     foreach (var item in Model)
                     {
@@ -38,11 +34,14 @@
                             <td>@item.Category</td>
                             <td>@item.Quantity</td>
                             <td>
-                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Sửa</a>
-                                <a href="/Sach/Delete/@item.Id" class="btn btn-danger btn-sm" onclick="return confirm('Bạn có chắc muốn xóa cuốn sách này?');">Xóa</a>
+            
                             </td>
                         </tr>
                     }
+                }
+                else
+                {
+                    <tr><td colspan="6" class="text-center text-danger">Chưa có dữ liệu sách.</td></tr>
                 }
             </tbody>
         </table>

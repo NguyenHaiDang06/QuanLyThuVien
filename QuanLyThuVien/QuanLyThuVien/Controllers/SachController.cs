@@ -14,11 +14,22 @@ namespace QuanLyThuVien.Controllers
         }
 
         // Hiển thị danh sách
-        public IActionResult Index()
-{
+        public IActionResult Index(string searchString)
+        {
+            ViewData["CurrentFilter"] = searchString;
 
-    return View();
-}
+            // Lấy toàn bộ sách từ database
+            var books = from b in _context.Books select b;
+
+            // Nếu có từ khóa tìm kiếm thì lọc lại dữ liệu
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                books = books.Where(s => s.Title.Contains(searchString) || s.Author.Contains(searchString));
+            }
+
+            // Trả về View kèm theo danh sách đã được chuyển thành List
+            return View(books.ToList());
+        }
 
         // Giao diện thêm mới
         [HttpGet]
